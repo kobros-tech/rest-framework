@@ -16,6 +16,7 @@ class FastapiEndpoint(models.Model):
         selection_add=[(APP_NAME, "Auth JWT Demo Endpoint")],
         ondelete={APP_NAME: "cascade"},
     )
+    auth_jwt_validator_id = fields.Many2one("auth.jwt.validator")
 
     @api.model
     def _get_fastapi_routers(self):

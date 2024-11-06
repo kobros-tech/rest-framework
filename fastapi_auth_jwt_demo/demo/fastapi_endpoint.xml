@@ -5,5 +5,6 @@
         <field name="app">auth_jwt_demo</field>
         <field name="root_path">/fastapi_auth_jwt_demo</field>
         <field name="user_id" ref="fastapi.my_demo_app_user" />
+        <field name="auth_jwt_validator_id" ref="auth_jwt_demo.demo_validator" />
     </record>
 </odoo>

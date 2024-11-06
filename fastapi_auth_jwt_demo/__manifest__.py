@@ -10,7 +10,9 @@
     "author": "ACSONE SA/NV,Odoo Community Association (OCA)",
     "maintainers": ["sbidoul"],
     "website": "https://github.com/OCA/rest-framework",
-    "depends": ["fastapi_auth_jwt", "auth_jwt_demo"],
-    "data": [],
+    "depends": ["fastapi", "fastapi_auth_jwt", "auth_jwt_demo"],
+    "data": [
+        "views/fastapi_endpoint_demo.xml",
+    ],
     "demo": ["demo/fastapi_endpoint.xml"],
 }

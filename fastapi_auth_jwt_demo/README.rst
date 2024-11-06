@@ -56,6 +56,11 @@ Authors
 
 * ACSONE SA/NV
 
+Contributors
+~~~~~~~~~~~~
+
+Mohamed Alkobrosli <alkobroslymohamed@gmail.com>
+
 Maintainers
 ~~~~~~~~~~~
 
